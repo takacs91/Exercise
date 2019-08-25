@@ -1,0 +1,91 @@
+body {
+	background: url('background_image.jpg') fixed;
+	margin: 0 0 50px 0;
+	font-family: tahoma,arial,verdana;
+	font-size: 11px;
+	color: grey;
+}
+
+a {
+	color: brown;
+}
+
+div#header {
+	width: 800px;
+	margin: 30px auto 15px auto;
+	font-size: 40px;
+	font-family: georgia;
+	color: #fff;
+	letter-spacing: -1px; /* betűk távolsága */
+}
+
+div#container {
+	width: 760px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 20px;
+}
+
+div#column_left {
+	width: 248px; /* 250px */
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+div#column_right {
+	width: 488px; /* 490px */
+	float: left;
+}
+
+div {
+	border: 1px solid black; /* kivenni */
+}
+
+div.column_left_box {
+	border-bottom: 1px dotted grey;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	text-align: justify;
+}
+
+div.column_left_box h2 {
+	padding: 0;
+	margin: 0;
+	color: brown;
+	font-size: 12px;
+}
+
+div.column_left_box p {
+	padding: 5px 0;
+	margin: 0;
+}
+
+div.column_left_box:last-child {
+	border: 0;
+}
+
+div.column_left_box img {
+	float: right;
+	margin: 0 0 10px 10px;
+	border: 1px solid grey;
+}
+
+div#column_right h1 {
+	font-family: georgia;
+	font-size: 30px;
+	font-style: normal; /* ne legyen félkövér */
+	text-transform: uppercase;
+	border-bottom: 1px dotted grey;
+	margin: 0;
+	padding: 0;
+	color: brown;
+}
+
+div#column_right p {
+	text-align: justify;
+	line-height: 18px;
+}
+
+div.clear {
+	clear: both;
+}
