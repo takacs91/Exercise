@@ -18,9 +18,20 @@ div#header {
 	font-family: georgia;
 	color: #fff;
 	letter-spacing: -1px; 
+	
 	background: -webkit-gradient(linear, left top, left bottom, from(brown), to(#cd5050)); /* WebKit */
 	background: -moz-linear-gradient(top, brown, #cd5050); /* Firefox */
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='brown', endColorstr='#cd5050'); /* IE */
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	
+	text-shadow: 1px 1px 5px #2e2e2e; /* vízszintes eltolás, függőleges eltolás, árnyék mérete, árnyék színe */
+	
+	box-shadow: 0 0 5px #3a3a3a;
+	-moz-box-shadow: 0 0 5px #3a3a3a;
+	-webkit-box-shadow: 0 0 5px #3a3a3a;
 }
 
 div#container {
@@ -28,6 +39,14 @@ div#container {
 	margin: 0 auto;
 	background: #fff;
 	padding: 20px;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	
+	box-shadow: 0 0 5px #3a3a3a;
+	-moz-box-shadow: 0 0 5px #3a3a3a;
+	-webkit-box-shadow: 0 0 5px #3a3a3a;
 }
 
 div#column_left {
@@ -68,6 +87,12 @@ div.column_left_box img {
 	float: right;
 	margin: 0 0 10px 10px;
 	/* border: 1px solid grey; */
+}
+
+div#column_right img {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 }
 
 div#column_right h1 {
